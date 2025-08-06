@@ -1,0 +1,595 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(249, 249, 249);
+}
+
+header nav {
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  padding-left: 83px;
+  padding-right: 30px;
+  border-bottom: 3px solid #e5e5e5;
+}
+
+header .nav {
+  width: 100%;
+  height: 196px;
+  display: flex;
+  padding-left: 83px;
+  padding-right: 30px;
+  padding-top: 34px;
+  position: relative;
+}
+
+header .nav h1 {
+  margin-top: 82px;
+  margin-left: 203px;
+  position: absolute;
+}
+
+header nav img {
+  width: 130px;
+  height: 30px;
+}
+
+header nav ul {
+  width: 555px;
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 220px;
+}
+
+header nav ul li {
+  cursor: pointer;
+}
+
+header nav .divs {
+  margin-left: 47px;
+  display: flex;
+  gap: 26px;
+  height: 40px;
+  margin-right: 40px;
+}
+
+nav .divs .div {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+nav button {
+  width: 160px;
+  height: 40px;
+  top: 20px;
+  left: 1121px;
+  opacity: 1;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/*! Main */
+
+main {
+  width: 100%;
+  padding: 0 83px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+main .main {
+  width: 100%;
+  padding: 0 203px;
+  display: flex;
+}
+
+main .main:nth-child(1){
+  height: 320px;
+  margin-bottom: 33px;
+}
+
+main .main .text {
+  width: 352px;
+  margin-top: 20px;
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Inter;
+}
+
+main .main .text button {
+  width: 154px;
+  height: 40px;
+  border: 2px solid black;
+  background-color: white;
+  top: 424px;
+  left: 203px;
+  gap: 10px;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+main .main .box .img1 {
+  width: 480px;
+  height: 300px;
+  position: absolute;
+  top: 182px;
+  left: 683px;
+  z-index: 1;
+}
+
+main .main .box .img2 {
+  width: 240;
+  height: 190;
+  top: 284px;
+  left: 900px;
+  position: absolute;
+  z-index: 2;
+}
+
+main .main .box button {
+  width: 128;
+  height: 40;
+  top: 532px;
+  left: 969px;
+  position: absolute;
+  gap: 10px;
+  opacity: 1;
+  border-radius: 10px;
+  padding-top: 12px;
+  border: 2px solid black;
+  background-color: rgba(16, 187, 135, 1);
+  padding-right: 30px;
+  padding-bottom: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+main .main1{
+  width: 100%;
+  height: 233px;
+  position: relative;
+}
+
+main .main1 h2{
+  margin-left: 203px;
+}
+
+main .main1 .boxes{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .main1 .boxes .box{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+main .main1 .divs{
+  display: flex;
+  margin-top: 30px;
+  position: relative;
+  margin-left: 203px;
+  gap: 48px;
+}
+
+main .main1 .divs .div{
+  width: 96px;
+  height: 137px;
+  font-size: 15px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+}
+
+main .main1 .divs .div .box{
+  width: 96px;
+  height: 96px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 12px;
+  font-size: 45px;
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(16, 187, 135, 1);
+}
+
+main .main2{
+  width: 100%;
+  height: auto;
+  display: grid;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main .main2 .boxes{
+  display: flex;
+  gap: 64px;
+  margin-top: 40px;
+}
+
+main .main2 .boxes .box{
+  width: 192px;
+  height: 300px;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+
+main .main2 .boxes .box .small-box{
+  width: 192px;
+  height: 192px;
+  border-radius: 24px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 12px;
+  background-color: rgba(242, 242, 242, 1);
+}
+
+main .main2 .boxes .box .small-box img{
+  width: 100px;
+  height: 100px;
+}
+
+main .main2 .boxes .box .small-box .vaqt{
+  width: 96px;
+  height: 20px;
+  border-radius: 24px;
+  background-color: rgba(255, 166, 48, 1);
+  top: 14px;
+  left: 14px;
+  position: absolute;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 14px;
+  color: white;
+}
+
+main .main2 .boxes .box .small-box .narxi{
+  width: 64px;
+  height: 20px;
+  border-radius: 24px;
+  background-color: rgba(16, 187, 135, 1);
+  position: absolute;
+  border: none;
+  left: 14px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  top: 154px;
+}
+
+main .main2 .boxes .box > button{
+  width: 162px;
+  height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  top: 255px;
+  left: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  display: flex;
+}
+
+button{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+main .main2 .boxes .box .yashil-fon{
+  background-color: rgba(16, 187, 135, 1);
+  color: white;
+}
+
+.main3{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.main3 .boxes{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  
+}
+
+main .main3 .boxes .box{
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(16, 187, 135, 1);
+  cursor: pointer;
+  gap: 20px;
+}
+
+main .main4{
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+}
+
+main .main4 h1{
+  width: 480px;
+  height: 88px;
+  font-size: 36px;
+  margin-bottom: 100px;
+}
+
+main .main4 .divs{
+  width: 100%;
+  height: 62px;
+  display: flex;
+  gap: 64px;
+}
+
+main .main4 .ddd{
+  margin-bottom: 90px;
+}
+
+main .main4 .divs .div{
+  width: 448px;
+  max-height: 62px;
+  display: flex;
+  border-top: 2px solid gray;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: c;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main .main4 button{
+  width: 191px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  left: 71%;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 12px;
+  border: none;
+  bottom: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 36px;
+}
+
+main .main5{
+  width: 960px;
+  height: 248px;
+  border-radius: 24px;
+  background-color: rgba(16, 187, 135, 1);
+  margin-left: 203px;
+  margin-top: 120px;
+  display: flex;
+  color: white;
+  display: flex;
+  padding-left: 96px;
+  position: relative;
+}
+
+main .main5 .text{
+  width: 352px;
+  padding-top: 50px;
+}
+
+main .main5 .text p{
+  margin-top: 30px;
+}
+
+main .main5 .input p{
+  font-size: 15px;
+  color: rgba(72, 123, 108, 1);
+  margin-bottom: 20px;
+}
+
+main .main5 .input{
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  top: 46px;
+  right: 96px;
+  position: absolute;
+}
+
+main .main5 .input >input{
+  width: 324px;
+  height: 40px;
+  padding-left: 18px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+main .main5 .input .div{
+  display: flex;
+  gap: 30px;
+}
+
+main .main5 .input .div input{
+  width: 256px;
+  height: 40px;
+  padding-left: 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+main .main5 .input .div .boxx{
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgba(16, 187, 135, 1);
+  background-color: white;
+  border-radius: 12px;
+}
+
+footer{
+  width: 100%;
+  background-color: rgba(242, 242, 242, 1);
+  height: 556px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .top-footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 80px;
+  padding-left: 83px;
+}
+
+.top-footer img{
+  width: 130px;
+  height: 30px;
+}
+
+.top-footer ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.li{
+  color: rgba(179, 179, 179, 1);
+}
+
+.lii{
+  color: rgba(255, 47, 84, 1);
+}
+
+footer .bottom{
+  margin-top: 40px;
+  padding-left: 292px;
+}
+
+footer .top-footer ul{
+  width: 152px;
+}
+
+footer .bottom-footer{
+  height: 96px;
+  border-top: 3px solid gray;
+  display: flex;
+  padding-left: 83px;
+  margin-top: 80px;
+  padding-top: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.bottom-footer .icons{
+  display: flex;
+  gap: 20px;
+  border-radius: 6px;
+}
+
+.bottom-footer .icons .icon{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 36px;
+  color: rgba(16, 187, 135, 1);
+  font-size: 20px;
+  background-color: white ;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  border-radius: 6px;
+}
+
+.bottom-footer ul{
+  width: 150px;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bottom-footer .ul{
+  margin-left: 300px;
+}
+
+.bottom-footer ul .li{
+  color: gray;
+}
