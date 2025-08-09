@@ -111,7 +111,7 @@ main .main {
   display: flex;
 }
 
-main .main:nth-child(1){
+main .main:nth-child(1) {
   height: 320px;
   margin-bottom: 33px;
 }
@@ -177,17 +177,17 @@ main .main .box button {
   padding-left: 30px;
 }
 
-main .main1{
+main .main1 {
   width: 100%;
   height: 233px;
   position: relative;
 }
 
-main .main1 h2{
+main .main1 h2 {
   margin-left: 203px;
 }
 
-main .main1 .boxes{
+main .main1 .boxes {
   width: 100%;
   height: auto;
   position: absolute;
@@ -197,7 +197,7 @@ main .main1 .boxes{
   justify-content: space-between;
 }
 
-main .main1 .boxes .box{
+main .main1 .boxes .box {
   width: 40px;
   height: 40px;
   background-color: white;
@@ -211,7 +211,7 @@ main .main1 .boxes .box{
   cursor: pointer;
 }
 
-main .main1 .divs{
+main .main1 .divs {
   display: flex;
   margin-top: 30px;
   position: relative;
@@ -219,7 +219,7 @@ main .main1 .divs{
   gap: 48px;
 }
 
-main .main1 .divs .div{
+main .main1 .divs .div {
   width: 96px;
   height: 137px;
   font-size: 15px;
@@ -232,7 +232,7 @@ main .main1 .divs .div{
   cursor: pointer;
 }
 
-main .main1 .divs .div .box{
+main .main1 .divs .div .box {
   width: 96px;
   height: 96px;
   align-items: center;
@@ -244,7 +244,7 @@ main .main1 .divs .div .box{
   color: rgba(16, 187, 135, 1);
 }
 
-main .main2{
+main .main2 {
   width: 100%;
   height: auto;
   display: grid;
@@ -252,13 +252,13 @@ main .main2{
   margin-bottom: 40px;
 }
 
-main .main2 .boxes{
+main .main2 .boxes {
   display: flex;
   gap: 64px;
   margin-top: 40px;
 }
 
-main .main2 .boxes .box{
+main .main2 .boxes .box {
   width: 192px;
   height: 300px;
   font-size: 14px;
@@ -267,7 +267,7 @@ main .main2 .boxes .box{
   overflow: hidden;
 }
 
-main .main2 .boxes .box .small-box{
+main .main2 .boxes .box .small-box {
   width: 192px;
   height: 192px;
   border-radius: 24px;
@@ -279,12 +279,12 @@ main .main2 .boxes .box .small-box{
   background-color: rgba(242, 242, 242, 1);
 }
 
-main .main2 .boxes .box .small-box img{
+main .main2 .boxes .box .small-box img {
   width: 100px;
   height: 100px;
 }
 
-main .main2 .boxes .box .small-box .vaqt{
+main .main2 .boxes .box .small-box .vaqt {
   width: 96px;
   height: 20px;
   border-radius: 24px;
@@ -300,7 +300,7 @@ main .main2 .boxes .box .small-box .vaqt{
   color: white;
 }
 
-main .main2 .boxes .box .small-box .narxi{
+main .main2 .boxes .box .small-box .narxi {
   width: 64px;
   height: 20px;
   border-radius: 24px;
@@ -315,7 +315,7 @@ main .main2 .boxes .box .small-box .narxi{
   top: 154px;
 }
 
-main .main2 .boxes .box > button{
+main .main2 .boxes .box > button {
   width: 162px;
   height: 40px;
   border-radius: 10px;
@@ -332,16 +332,16 @@ main .main2 .boxes .box > button{
   display: flex;
 }
 
-button{
+button {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-main .main2 .boxes .box .yashil-fon{
+main .main2 .boxes .box .yashil-fon {
   background-color: rgba(16, 187, 135, 1);
   color: white;
 }
 
-.main3{
+.main3 {
   width: 100%;
   height: auto;
   align-items: center;
@@ -350,16 +350,15 @@ main .main2 .boxes .box .yashil-fon{
   margin-bottom: 120px;
 }
 
-.main3 .boxes{
+.main3 .boxes {
   width: 400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  
 }
 
-main .main3 .boxes .box{
+main .main3 .boxes .box {
   width: 45px;
   height: 45px;
   align-items: center;
@@ -373,7 +372,7 @@ main .main3 .boxes .box{
   gap: 20px;
 }
 
-main .main4{
+main .main4 {
   width: 100%;
   height: auto;
   flex-direction: column;
@@ -381,25 +380,25 @@ main .main4{
   display: flex;
 }
 
-main .main4 h1{
+main .main4 h1 {
   width: 480px;
   height: 88px;
   font-size: 36px;
   margin-bottom: 100px;
 }
 
-main .main4 .divs{
+main .main4 .divs {
   width: 100%;
   height: 62px;
   display: flex;
   gap: 64px;
 }
 
-main .main4 .ddd{
+main .main4 .ddd {
   margin-bottom: 90px;
 }
 
-main .main4 .divs .div{
+main .main4 .divs .div {
   width: 448px;
   max-height: 62px;
   display: flex;
@@ -413,7 +412,7 @@ main .main4 .divs .div{
   font-weight: 600;
 }
 
-main .main4 button{
+main .main4 button {
   width: 191px;
   height: 40px;
   align-items: center;
@@ -429,7 +428,7 @@ main .main4 button{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 36px;
 }
 
-main .main5{
+main .main5 {
   width: 960px;
   height: 248px;
   border-radius: 24px;
@@ -443,22 +442,22 @@ main .main5{
   position: relative;
 }
 
-main .main5 .text{
+main .main5 .text {
   width: 352px;
   padding-top: 50px;
 }
 
-main .main5 .text p{
+main .main5 .text p {
   margin-top: 30px;
 }
 
-main .main5 .input p{
+main .main5 .input p {
   font-size: 15px;
   color: rgba(72, 123, 108, 1);
   margin-bottom: 20px;
 }
 
-main .main5 .input{
+main .main5 .input {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
@@ -467,7 +466,7 @@ main .main5 .input{
   position: absolute;
 }
 
-main .main5 .input >input{
+main .main5 .input > input {
   width: 324px;
   height: 40px;
   padding-left: 18px;
@@ -476,12 +475,12 @@ main .main5 .input >input{
   border-radius: 6px;
 }
 
-main .main5 .input .div{
+main .main5 .input .div {
   display: flex;
   gap: 30px;
 }
 
-main .main5 .input .div input{
+main .main5 .input .div input {
   width: 256px;
   height: 40px;
   padding-left: 12px;
@@ -489,7 +488,7 @@ main .main5 .input .div input{
   border: none;
 }
 
-main .main5 .input .div .boxx{
+main .main5 .input .div .boxx {
   width: 40px;
   height: 40px;
   align-items: center;
@@ -500,7 +499,7 @@ main .main5 .input .div .boxx{
   border-radius: 12px;
 }
 
-footer{
+footer {
   width: 100%;
   background-color: rgba(242, 242, 242, 1);
   height: 556px;
@@ -509,7 +508,7 @@ footer{
   flex-direction: column;
 }
 
-footer .top-footer{
+footer .top-footer {
   width: 100%;
   height: auto;
   display: flex;
@@ -517,12 +516,12 @@ footer .top-footer{
   padding-left: 83px;
 }
 
-.top-footer img{
+.top-footer img {
   width: 130px;
   height: 30px;
 }
 
-.top-footer ul{
+.top-footer ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -530,24 +529,24 @@ footer .top-footer{
   font-size: 15px;
 }
 
-.li{
+.li {
   color: rgba(179, 179, 179, 1);
 }
 
-.lii{
+.lii {
   color: rgba(255, 47, 84, 1);
 }
 
-footer .bottom{
+footer .bottom {
   margin-top: 40px;
   padding-left: 292px;
 }
 
-footer .top-footer ul{
+footer .top-footer ul {
   width: 152px;
 }
 
-footer .bottom-footer{
+footer .bottom-footer {
   height: 96px;
   border-top: 3px solid gray;
   display: flex;
@@ -558,17 +557,17 @@ footer .bottom-footer{
   gap: 50px;
 }
 
-.bottom-footer .icons{
+.bottom-footer .icons {
   display: flex;
   gap: 20px;
   border-radius: 6px;
 }
 
-.bottom-footer .icons .icon{
+.bottom-footer .icons .icon {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 36px;
   color: rgba(16, 187, 135, 1);
   font-size: 20px;
-  background-color: white ;
+  background-color: white;
   width: 40px;
   height: 40px;
   align-items: center;
@@ -578,7 +577,7 @@ footer .bottom-footer{
   border-radius: 6px;
 }
 
-.bottom-footer ul{
+.bottom-footer ul {
   width: 150px;
   display: flex;
   list-style: none;
@@ -586,10 +585,41 @@ footer .bottom-footer{
   gap: 12px;
 }
 
-.bottom-footer .ul{
+.bottom-footer .ul {
   margin-left: 300px;
 }
 
-.bottom-footer ul .li{
+.bottom-footer ul .li {
   color: gray;
+}
+
+li:hover {
+  color: rgba(16, 187, 135, 1);
+  transition: 0.6s;
+}
+
+li {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: rgba(16, 187, 135, 1);
+  transition: 0.6s;
+}
+
+main .boxes .box button:hover {
+  color: white;
+  background-color: rgba(16, 187, 135, 1);
+  transition: 0.6s;
+}
+
+main button:hover {
+  color: white;
+  background-color: rgba(16, 187, 135, 1);
+  transition: 0.6s;
 }
